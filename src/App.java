@@ -8,6 +8,7 @@ public class App {
         CuentaBancaria cuenta= new CuentaBancaria();
         Estudiante estudiante= new Estudiante();
         Producto producto= new Producto();
+        Mascota mascota = new Mascota();
 
 
         // 2. llamamos los metodos de la clase Automovil
@@ -40,6 +41,9 @@ public class App {
           producto.aplicarDescuento(20000, 20);
           producto.mostrarInfo();
           System.out.println();
-
-    }
+       // 9. metodos de la clase Mascota
+        mascota.emitirSonido("ladrido");
+        mascota.describir();
+        System.out.println();
+    }  
 }
